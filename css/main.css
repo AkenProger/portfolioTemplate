@@ -1,0 +1,263 @@
+@import "./fonts.css";
+
+/* BASIC CONF */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+/* BASIC CONF */
+
+/* UNIQUE CONF */
+.row {
+    display: flex;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-4 {
+    width: 33.33333%
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 20%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.direction_column {
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.section_title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.section_desc {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.base-button {
+    padding: 15px 60px;
+    background: #34547A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid_col-4 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid_rows-3 {
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+/* UNIQUE CONF */
+
+/* HEADER STYLES  */
+.header {
+    padding: 60px 0 60px;
+    background: #EEEFF1;
+}
+
+.header-logo {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.header-link {
+    margin-right: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #34547A
+}
+
+/* HEADER STYLES  */
+/* HERO STYLES */
+.hero {
+    height: 580px;
+    background: #EEEFF1;
+}
+
+.hero-title {
+    text-align: left;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+}
+
+.hero-desc {
+    padding: 60px 0 60px;
+}
+
+.hero-content {
+    width: 541px;
+}
+
+.hero .base-button:hover {
+    font-size: 17px;
+    transition: 2.2s;
+}
+
+/* HERO STYLES */
+/* ABOUT ME SECTION */
+.about-me {
+    padding: 119px 0 100px;
+}
+
+.about-me .section_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-me .section_desc {
+    width: 540px;
+    text-align: center;
+}
+
+/* ABOUT ME SECTION */
+
+/* COMPLETS SECTION */
+.complets {
+    padding: 100px 0 100px;
+    background: #34547A;
+}
+
+.complets-logo {
+    margin-right: 29px;
+}
+
+.complets-count {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.complets-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.complets .col-2 {
+    margin-right: 52px;
+}
+
+/* COMPLETS SECTION */
+/* SKILLS SECTION */
+.skills {
+    padding: 100px 0 100px;
+    background: #FFFFFF;
+}
+
+.skills-img {
+    width: 555px;
+    height: 450px;
+    object-fit: contain;
+}
+
+.skills-img img {
+    width: 100%;
+    height: 100%;
+}
+.skill-content {
+    margin-bottom: 29px;
+}
+
+.skills-title {
+    margin-bottom: 50px;
+}
+
+.skill-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.progress {
+    width: 445px;
+    height: 4px;
+    background: #C4C4C4;
+}
+.inprogress {
+    height: 4px;
+    background: #34547A;
+}
+
+/* SKILLS SECTION */
